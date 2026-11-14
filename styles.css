@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "Myfont";
+    src: url('Myfont-Regular.ttf') format('truetype');
+}
+
+h1, h2, span, div, .navbar
+{
+    font-family: 'Myfont', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h1{
+    font-size: 3.2em!important;
+        text-decoration: underline;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f8fbff;
+  background-image: 
+    linear-gradient(to right, rgba(59, 130, 246, 0.2) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(59, 130, 246, 0.2) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+.navbar{
+    font-size: 1.5em;
+    box-shadow: 0 0 3px 3px rgba(102, 131, 184, 0.5);
+    li{
+        margin: 0 20px;
+    }
+}
+
+#about{
+    height: 100vh;
+    width: 100vw;
+} 
+
+#about{
+    h2{
+        margin-top: 20px;
+        font-size: 2em;
+        letter-spacing: -.02em;
+    }
+    .row{
+        margin-top: -10%;
+    }
+}
+
+.logo{
+    width: 40%;
+}
+.container{
+    width: 100dvw;
+    height: 90dvh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    .col{
+        display: flex;
+        align-items: center; 
+        
+        div{
+            width: 100%;
+            display: block!important;
+        }
+    }
+
+    #logo{
+        width: 80%;
+    }
+}
+
+#team{
+    padding: 5%;
+    padding-bottom: 10px;
+    background-color: rgb(255, 212, 125);
+  background-image: 
+    linear-gradient(to bottom, rgba(139, 139, 139, 0.4) 1px, transparent 1px);
+  background-size: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+
+    width: 80%;
+    
+    h1{
+        width: 100%;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .teammembers{
+        text-align: left;
+    }
+    .teammember
+    {
+        height: 100%;
+        font-size: 1.1em;
+        margin: 2%;
+        
+        div{
+        }
+        h2{
+            font-size: 1.6em;
+            margin: 0;
+        }
+        h3{
+            margin-top: -10px;
+            font-size: 1em;
+            color: rgba(0, 0, 0, 0.5);            
+        }
+    }
+    .teammemberdescription{
+        padding: 20px;
+    }
+    .teampicture{
+        width: 100%;
+    }
+}
